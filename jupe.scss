@@ -1,0 +1,29 @@
+/*!
+Project Name: jupe.css
+Version: 1.0
+Author: Jiangshui Yu
+Website: http://yujiangshui.com
+E-mail: yujiangshui@gmail.com
+*/
+
+/* vars */
+
+/*color*/
+$txt-black : #333;
+$txt-blue : #3498db;
+$txt-darkblue : #2980b9;
+
+/*fonts*/
+@mixin font-hei {
+	font-family: "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+}
+
+/* utils */
+
+
+
+/* main */
+
+body{
+	@include font-hei;
+}
