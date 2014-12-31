@@ -2,6 +2,7 @@
 Project Name: jupe.css
 Version: 1.0
 Author: Jiangshui Yu
+Time: 2014.12.31
 Website: http://yujiangshui.com
 E-mail: yujiangshui@gmail.com
 */
@@ -65,33 +66,29 @@ $line-height : 1.7;
 	font-size: $size-default;
 	line-height: $line-height;
 
-	/*a*/
 	a{
 		text-decoration: none;
 		color: $txt-darkblue;
-		padding-bottom: 1px;
-		border-bottom: 1px solid $txt-darkblue;
 		&:hover{
 			color: $txt-blue;
-			border-bottom: 1px solid $txt-blue;
 		}
 	}
+	abbr{
+		cursor:help;
+	}
 
-	/*hn*/
 	@for $i from 1 through 6 {
 		h#{$i} {
 			font-weight: normal;
 			font-size: 2.4em - $i * 0.2em;
-			margin: 1.6em 0 0.8em 0;
+			margin: 1.2em 0 0.6em 0;
 		}
 	}
 
-	/*p*/
 	p{
-		margin: 1em 0;
+		margin: 1.2em 0;
 	}
 
-	/*tt、i、b、big、small、em、strong、dfn、kbd、cite、code*/
 	@each $tags in tt, i, b, big, small, em, strong, dfn, kbd, cite, code {
 		#{$tags} {
 			margin: 0 .2em;
@@ -123,8 +120,6 @@ $line-height : 1.7;
 		background: $bg-lightgray;
 		padding: .2em .4em;
 	}
-
-	/*pre、var*/
 	pre{
 		background: $bg-lightgray;
 		padding: 1em;
@@ -138,7 +133,6 @@ $line-height : 1.7;
 		font-style: italic;
 	}
 
-	/*Blockquote*/
 	blockquote{
 		padding-left: .8em;
 		margin: 1em .8em;
@@ -157,7 +151,6 @@ $line-height : 1.7;
 		}
 	}
 
-	/*q*/
 	q{
 		margin: 0 .2em;
 	}
@@ -168,19 +161,14 @@ $line-height : 1.7;
 		content: "”";
 	}
 
-	/*del、ins*/
 	del{
-		text-decoration: none;
-		border-bottom: 1px solid $txt-black;
-		height: .8em;
-		display: inline-block;
+		text-decoration:line-through;
 	}
 	ins{
 		text-decoration: none;
 		border-bottom: 1px solid $txt-black;
 	}
 
-	/*sub、sup*/
 	sub{
 		vertical-align: baseline;
 		font-size: .8em;
@@ -196,7 +184,6 @@ $line-height : 1.7;
 		margin: 0 .4em 0 0;
 	}
 
-	/*img*/
 	p img{
 		vertical-align: middle;
 		display: inline;
@@ -211,7 +198,6 @@ $line-height : 1.7;
 		margin: 1em 0;
 	}
 
-	/*table*/
 	table{
 		border: 1px solid $border-gray;
 		border-collapse: collapse;
@@ -237,6 +223,16 @@ $line-height : 1.7;
 		border-bottom: 1px solid $border-gray;
 		padding: .2em .6em;
 	}
+
+	ul{
+		list-style-type: square;
+		padding-left: 1.4em;
+	}
+
+	figure{
+		margin: 1em 0;
+	}
+
 
 }
 

@@ -3,6 +3,7 @@
 Project Name: jupe.css
 Version: 1.0
 Author: Jiangshui Yu
+Time: 2014.12.31
 Website: http://yujiangshui.com
 E-mail: yujiangshui@gmail.com
 */
@@ -25,60 +26,49 @@ E-mail: yujiangshui@gmail.com
   color: #333333;
   font-size: 16px;
   line-height: 1.7;
-  /*a*/
-  /*hn*/
-  /*p*/
-  /*tt、i、b、big、small、em、strong、dfn、kbd、cite、code*/
-  /*pre、var*/
-  /*Blockquote*/
-  /*q*/
-  /*del、ins*/
-  /*sub、sup*/
-  /*img*/
-  /*table*/
 }
 .jupe a {
   text-decoration: none;
   color: #2980b9;
-  padding-bottom: 1px;
-  border-bottom: 1px solid #2980b9;
 }
 .jupe a:hover {
   color: #3498db;
-  border-bottom: 1px solid #3498db;
+}
+.jupe abbr {
+  cursor: help;
 }
 .jupe h1 {
   font-weight: normal;
   font-size: 2.2em;
-  margin: 1.6em 0 0.8em 0;
+  margin: 1.2em 0 0.6em 0;
 }
 .jupe h2 {
   font-weight: normal;
   font-size: 2em;
-  margin: 1.6em 0 0.8em 0;
+  margin: 1.2em 0 0.6em 0;
 }
 .jupe h3 {
   font-weight: normal;
   font-size: 1.8em;
-  margin: 1.6em 0 0.8em 0;
+  margin: 1.2em 0 0.6em 0;
 }
 .jupe h4 {
   font-weight: normal;
   font-size: 1.6em;
-  margin: 1.6em 0 0.8em 0;
+  margin: 1.2em 0 0.6em 0;
 }
 .jupe h5 {
   font-weight: normal;
   font-size: 1.4em;
-  margin: 1.6em 0 0.8em 0;
+  margin: 1.2em 0 0.6em 0;
 }
 .jupe h6 {
   font-weight: normal;
   font-size: 1.2em;
-  margin: 1.6em 0 0.8em 0;
+  margin: 1.2em 0 0.6em 0;
 }
 .jupe p {
-  margin: 1em 0;
+  margin: 1.2em 0;
 }
 .jupe tt {
   margin: 0 .2em;
@@ -188,10 +178,7 @@ E-mail: yujiangshui@gmail.com
   content: "”";
 }
 .jupe del {
-  text-decoration: none;
-  border-bottom: 1px solid #333333;
-  height: .8em;
-  display: inline-block;
+  text-decoration: line-through;
 }
 .jupe ins {
   text-decoration: none;
@@ -243,6 +230,13 @@ E-mail: yujiangshui@gmail.com
 .jupe td {
   border-bottom: 1px solid #eeeeee;
   padding: .2em .6em;
+}
+.jupe ul {
+  list-style-type: square;
+  padding-left: 1.4em;
+}
+.jupe figure {
+  margin: 1em 0;
 }
 
 /***********************************************************************************/
