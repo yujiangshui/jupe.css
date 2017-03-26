@@ -1,6 +1,8 @@
 jupe.css
 ========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/yujiangshui/jupe.css.svg)](https://greenkeeper.io/)
+
 JUst tyPE CSS， 只为中文正文排版而生。
 
 ## jupe.css 由来
